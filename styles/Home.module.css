@@ -1,0 +1,243 @@
+.container {
+  padding: 0 2rem;
+  background-color:#F4F7E7;
+}
+
+.navContainer {
+  background-color:#A9531B;
+  color: #F4FEC1;
+}
+
+.blueprintContainer {
+  background-color: #D2D68D;
+}
+
+.monetizationContainer {
+  background-color: #D9F9A5;
+}
+
+.functionsContainer {
+  background-color: #A9531B;
+}
+
+.tokensContainer {
+  background-color: #D2D68D;
+}
+
+.contactContainer {
+  background-color: #D9F9A5;
+}
+
+.navList {
+  list-style-type: none;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: "#ACAD94";
+  font-family: "Avenir";
+  font-size: 30pt;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 400px;
+  padding-right: 44px;
+  padding-top: 60px;
+  position: fixed;
+}
+
+.tagline {
+  font-family: "Avenir";
+  font-size: 13pt;
+  font-weight: bold;
+  line-height: normal;
+  background-color: transparent;
+  color: #9FA266;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  margin-left: 0px;
+  margin-right: 630px;
+  text-align: left;
+}
+
+.subtitle {
+  font-family: "Avenir";
+  font-size: 11pt;
+  font-weight: 500;
+  line-height: normal;
+  background-color: transparent;
+  color: #A9531B;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0;
+  padding-bottom: 70px;
+  margin-left: 0px;
+  margin-right: 630px;
+  text-align: left;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding-top: 2rem;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  border-top: 1px solid #A9531B;
+  justify-content: center;
+  align-items: center;
+  background-color: #D2D68D;
+  width: 100%;
+  margin: 0;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #A9531B;
+  text-decoration: none;
+  font-size: 40pt;
+  line-height: 80%;
+  text-transform: initial;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+  color: #F4FEC1;
+  background-color: #A9531B;
+}
+
+.title {
+  margin: 0;
+  line-height: 110%;
+  font-size: 40pt;
+  text-align: left;
+  font-family: "Avenir";
+  padding-right: 600px;
+  padding-bottom: 0px;
+  text-transform: lowercase;
+}
+
+.title,
+.description {
+  text-align: left;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: "Avenir";
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 100%;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #A9531B;
+  border-color: #A9531B;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.punchline p { 
+  background: #F4FEC1; 
+  color: #A9531B; 
+}
+
+.parallax-wrapper {
+  width: 100vw;
+  height:100vh;
+  padding-top:20vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+.parallax-wrapper::before {
+  content:"";
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  left:0;
+  background-color: #A9531B;
+  position: absolute;
+  z-index: -1;
+  transform:translateZ(-1px) scale(2);
+}
+
+.regular-wrapper {
+  width: 100vw;
+  height:100vh;
+  padding-top:20vh;
+  background-image: #D9F9A5;
+  z-index: 2;
+  position: relative;
+}
+.content {
+  margin: 0 auto;
+  padding: 50px;
+  width: 50%;
+  background: #aaa;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
